@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: switch
+# key: switch
+# group : control structure
+# --
+switch (${1:expr}) {
+case ${2:num}:
+    $0
+    break;
+default:
+    break;
+}

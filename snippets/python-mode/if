@@ -1,0 +1,6 @@
+# key: if
+# name: if
+# group : control structure
+# --
+if ${1:cond}:
+    $0

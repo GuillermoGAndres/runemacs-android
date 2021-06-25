@@ -1,0 +1,7 @@
+# key: main_argcv
+# name: main_argcv
+# --
+int main(int argc, char *argv[]){
+    $0
+    return 0;
+}

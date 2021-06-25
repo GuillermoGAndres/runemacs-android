@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: preambulo 
+# key: prem
+# --
+#+title: ${1:`(file-name-base (or (buffer-file-name) (buffer-name)))`}
+#+author: ${1:`(user-full-name)`}
+#+date: ${1:`(format-time-string "%d/%m/%Y")`}

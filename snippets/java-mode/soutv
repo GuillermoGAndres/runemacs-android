@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: soutv 
+# key: soutv
+# --
+System.out.println("${1:field}: " + ${2:field});
